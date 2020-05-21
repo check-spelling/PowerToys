@@ -335,7 +335,7 @@ namespace Wox.Helper
                         // Do an asynchronous call to ActivateFirstInstance function
                         Application.Current.Dispatcher.Invoke(ActivateFirstInstance);
                     }
-                    // Disconect client
+                    // Disconnect client
                     pipeServer.Disconnect();
                 }
             }
