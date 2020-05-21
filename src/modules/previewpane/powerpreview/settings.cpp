@@ -69,7 +69,7 @@ namespace PowerPreviewSettings
         auto toggle = settings.get_bool_value(this->GetToggleSettingName());
         if (toggle)
         {
-            // If no exisiting setting found leave the default intitialization value.
+            // If no existing setting found leave the default intitialization value.
             this->UpdateToggleSettingState(*toggle);
         }
     }
