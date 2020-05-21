@@ -6,7 +6,7 @@
 #include <memory>
 #include <vector>
 
-// Returns RECT with positions of the minmize/maximize buttons of the given window.
+// Returns RECT with positions of the minimize/maximize buttons of the given window.
 // Does not always work, since some apps draw custom toolbars.
 std::optional<RECT> get_button_pos(HWND hwnd);
 // Gets position of given window.
