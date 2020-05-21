@@ -14,7 +14,7 @@ namespace Microsoft.Plugin.WindowWalker.Components
     {
         /// <summary>
         /// Finds the best match (the one with the most
-        /// number of letters adjecent to each other) and
+        /// number of letters adjacent to each other) and
         /// returns the index location of each of the letters
         /// of the matches
         /// </summary>
