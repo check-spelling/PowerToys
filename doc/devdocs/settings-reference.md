@@ -80,7 +80,7 @@ Example module JSON (taken from Shortcut Guide):
 ```
 produces this settings screen:
 
-![Shortcut Guide settings](../images/settings/shorcut_guide_settings.png)
+![Shortcut Guide settings](../images/settings/shortcut_guide_settings.png)
 
 ### Helper methods
 
