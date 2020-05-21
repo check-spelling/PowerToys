@@ -102,7 +102,7 @@ namespace PowerLauncher
                 PowerToysTelemetry.Log.WriteEvent(new LauncherBootEvent() { BootTimeMs = bootTime.ElapsedMilliseconds });
 
                 //[Conditional("RELEASE")]
-                // check udpate every 5 hours
+                // check update every 5 hours
 
                 // check updates on startup
             });
