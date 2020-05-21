@@ -63,7 +63,7 @@ WindowState get_window_state(HWND hwnd);
 // Returns true if the current process is running with elevated privileges
 bool is_process_elevated(const bool use_cached_value = true);
 
-// Drops the elevated privilages if present
+// Drops the elevated privileges if present
 bool drop_elevated_privileges();
 
 // Run command as elevated user, returns true if succeeded
