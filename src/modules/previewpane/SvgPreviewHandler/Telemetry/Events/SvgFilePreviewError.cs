@@ -15,7 +15,7 @@ namespace SvgPreviewHandler.Telemetry.Events
     public class SvgFilePreviewError : EventBase, IEvent
     {
         /// <summary>
-        /// Gets or sets the error messsage to log as part of the telemetry event.
+        /// Gets or sets the error message to log as part of the telemetry event.
         /// </summary>
         public string Message { get; set; }
 
