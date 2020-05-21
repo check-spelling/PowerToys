@@ -39,7 +39,7 @@ interface __declspec(uuid("{7F017528-8110-4FB3-BE41-F472969C2560}")) IZoneWindow
      * is dropped within zone borders.
      *
      * @param window   Handle of window being moved or resized.
-     * @param ptScreen Cursor coordinates where window is droped.
+     * @param ptScreen Cursor coordinates where window is dropped.
      */
     IFACEMETHOD(MoveSizeEnd)(HWND window, POINT const& ptScreen) = 0;
     /**
