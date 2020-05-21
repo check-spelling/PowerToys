@@ -163,7 +163,7 @@ namespace FancyZonesEditor.Models
             }
         }
 
-        // Loads all the custom Layouts from tmp file passed by FancuZonesLib
+        // Loads all the custom Layouts from tmp file passed by FancyZonesLib
         public static ObservableCollection<LayoutModel> LoadCustomModels()
         {
             _customModels = new ObservableCollection<LayoutModel>();
