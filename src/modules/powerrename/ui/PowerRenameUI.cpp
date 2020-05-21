@@ -374,7 +374,7 @@ void CPowerRenameUI::_Cleanup()
 
 void CPowerRenameUI::_EnumerateItems(_In_ IUnknown* pdtobj)
 {
-    // Enumerate the data object and popuplate the manager
+    // Enumerate the data object and populate the manager
     if (m_spsrm)
     {
         m_disableCountUpdate = true;
