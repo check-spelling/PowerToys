@@ -11,7 +11,7 @@
 std::optional<RECT> get_button_pos(HWND hwnd);
 // Gets position of given window.
 std::optional<RECT> get_window_pos(HWND hwnd);
-// Gets mouse postion.
+// Gets mouse position.
 std::optional<POINT> get_mouse_pos();
 
 // Test if window can be zoned by FancyZones
