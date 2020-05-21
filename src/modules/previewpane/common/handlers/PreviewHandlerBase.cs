@@ -150,7 +150,7 @@ namespace Common
         }
 
         /// <summary>
-        /// Provide instance of the implementation of <see cref="IPreviewHandlerControl"/>. Should be overide by the implementation class with control object to be used.
+        /// Provide instance of the implementation of <see cref="IPreviewHandlerControl"/>. Should be override by the implementation class with control object to be used.
         /// </summary>
         /// <returns>Instance of the <see cref="IPreviewHandlerControl"/>.</returns>
         protected abstract IPreviewHandlerControl CreatePreviewHandlerControl();
