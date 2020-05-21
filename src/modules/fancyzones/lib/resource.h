@@ -18,7 +18,7 @@
 #define IDS_SETTING_LAUNCH_EDITOR_BUTTON                            118
 #define IDS_SETTING_LAUNCH_EDITOR_DESCRIPTION                       119
 #define IDS_SETTING_LAUNCH_EDITOR_HOTKEY_LABEL                      120
-#define IDS_SETTING_EXCLCUDED_APPS_DESCRIPTION                      121
+#define IDS_SETTING_EXCLUDED_APPS_DESCRIPTION                       121
 #define IDS_SETTINGS_HIGHLIGHT_OPACITY                              122
 #define IDS_FANCYZONES                                              123
 #define IDS_CANT_DRAG_ELEVATED                                      124
