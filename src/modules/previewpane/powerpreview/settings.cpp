@@ -14,7 +14,7 @@ namespace PowerPreviewSettings
     // Relative(HKLM/HKCU) sub key path of Preview Handlers list in registry.
     static LPCWSTR preview_handlers_subkey = L"Software\\Microsoft\\Windows\\CurrentVersion\\PreviewHandlers";
 
-    // Base Settinngs Class Implementation
+    // Base Settings Class Implementation
     FileExplorerPreviewSettings::FileExplorerPreviewSettings(bool toggleSettingEnabled, const std::wstring& toggleSettingName, const std::wstring& toggleSettingDescription, LPCWSTR clsid, const std::wstring& registryValueData, RegistryWrapperIface* registryWrapper) :
         m_toggleSettingEnabled(toggleSettingEnabled),
         m_toggleSettingName(toggleSettingName),
