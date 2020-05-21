@@ -179,9 +179,9 @@ public:
     // Save the updated configuration.
     bool SaveConfigToFile();
 
-    // Sets the Current Active Configuartion Name.
+    // Sets the Current Active Configuration Name.
     void SetCurrentConfigName(const std::wstring& configName);
 
-    // Gets the Current Active Configuartion Name.
+    // Gets the Current Active Configuration Name.
     std::wstring GetCurrentConfigName();
 };
