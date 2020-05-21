@@ -148,7 +148,7 @@ namespace Wox.Core.Plugin
         /// </summary>
         /// <param name="zipedFile">The ziped file.</param>
         /// <param name="strDirectory">The STR directory.</param>
-        /// <param name="overWrite">overwirte</param>
+        /// <param name="overWrite">overwrite</param>
         private static void UnZip(string zipedFile, string strDirectory, bool overWrite)
         {
             if (strDirectory == "")
