@@ -81,7 +81,7 @@ interface __declspec(uuid("{5C8D99D6-34B2-4F4A-A8E5-7483F6869775}")) IZoneWindow
      */
     IFACEMETHOD_(int, GetZoneHighlightOpacity)() = 0;
     /**
-     * @returns Bool indicating if dragged window should be transparrent 
+     * @returns Bool indicating if dragged window should be transparent 
      */
     IFACEMETHOD_(bool, isMakeDraggedWindowTransparentActive) () = 0;
 };
