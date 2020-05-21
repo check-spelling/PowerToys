@@ -108,7 +108,7 @@ namespace Wox.Infrastructure
 
         /// <summmary>
         /// replace chinese character with pinyin, non chinese character won't be modified
-        /// Because we don't have words dictionary, so we can only return all possiblie pinyin combination
+        /// Because we don't have words dictionary, so we can only return all possibly pinyin combination
         /// e.g. 音乐 will return yinyue and yinle
         /// <param name="characters"> should be word or sentence, instead of single character. e.g. 微软 </param>
         /// </summmary>
