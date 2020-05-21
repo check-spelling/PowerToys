@@ -512,7 +512,7 @@ void D2DOverlayWindow::resize()
     window_rect = *get_window_pos(hwnd);
     float no_active_scale, font;
     if (window_width >= window_height)
-    { // portriat is broke right now
+    { // portrait is broke right now
         use_overlay = &landscape;
         no_active_scale = 0.3f;
         font = 15.0f;
