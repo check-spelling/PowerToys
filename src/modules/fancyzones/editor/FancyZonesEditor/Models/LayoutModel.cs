@@ -115,7 +115,7 @@ namespace FancyZonesEditor.Models
 
         private bool _isSelected;
 
-        // implementation of INotifyProeprtyChanged
+        // implementation of INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
 
         // FirePropertyChanged -- wrapper that calls INPC.PropertyChanged
