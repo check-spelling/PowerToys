@@ -72,7 +72,7 @@ bool run_elevated(const std::wstring& file, const std::wstring& params);
 // Run command as non-elevated user, returns true if succeeded
 bool run_non_elevated(const std::wstring& file, const std::wstring& params);
 
-// Run command with the same elevation, returns true if succedded
+// Run command with the same elevation, returns true if succeeded
 bool run_same_elevation(const std::wstring& file, const std::wstring& params);
 
 // Returns true if the current process is running from administrator account

@@ -511,7 +511,7 @@ bool run_non_elevated(const std::wstring& file, const std::wstring& params)
     siex.StartupInfo.cb = sizeof(siex);
 
     PROCESS_INFORMATION process_info = { 0 };
-    auto succedded = CreateProcessW(file.c_str(),
+    auto succeeded = CreateProcessW(file.c_str(),
                                     const_cast<LPWSTR>(executable_args.c_str()),
                                     nullptr,
                                     nullptr,
@@ -529,7 +529,7 @@ bool run_non_elevated(const std::wstring& file, const std::wstring& params)
     {
         CloseHandle(process_info.hThread);
     }
-    return succedded;
+    return succeeded;
 }
 
 bool run_same_elevation(const std::wstring& file, const std::wstring& params)
@@ -541,7 +541,7 @@ bool run_same_elevation(const std::wstring& file, const std::wstring& params)
     }
     STARTUPINFO si = { 0 };
     PROCESS_INFORMATION pi = { 0 };
-    auto succedded = CreateProcessW(file.c_str(),
+    auto succeeded = CreateProcessW(file.c_str(),
                                     const_cast<LPWSTR>(executable_args.c_str()),
                                     nullptr,
                                     nullptr,
@@ -559,7 +559,7 @@ bool run_same_elevation(const std::wstring& file, const std::wstring& params)
     {
         CloseHandle(pi.hThread);
     }
-    return succedded;
+    return succeeded;
 }
 
 std::wstring get_process_path(HWND window) noexcept
