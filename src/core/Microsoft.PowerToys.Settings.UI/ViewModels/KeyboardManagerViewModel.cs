@@ -159,7 +159,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
         private async void OnConfigFileUpdate()
         {
             // Note: FileSystemWatcher raise notification multiple times for single update operation.
-            // Todo: Handle duplicate events either by somehow supress them or re-read the configuration everytime since we will be updating the UI only if something is changed.
+            // Todo: Handle duplicate events either by somehow suppress them or re-read the configuration everytime since we will be updating the UI only if something is changed.
             if (LoadProfile())
             {
                 await dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
