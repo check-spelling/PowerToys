@@ -56,7 +56,7 @@ FancyZones doesn't override the Windows 10 `Win+Shift+Arrow` to quickly move a w
 | Zone Inactive color (Default #F5FCFF) | The color that zones become when they are not an active drop during a window drag |
 | Zone border color (Default #FFFFFF) | The color of the border of active and inactive zones |
 | Zone opacity (%) (Default 50%) | The percentage of opacity of active and inactive zones |
-| Exclude applications from snapping to zones | Add the applications name, or part of the name, one per line (e.g., adding `Notepa` will match both `Notepad.exe` and `Notepad++.exe`, to match only `Notepad.exe` add the `.exe` extension) | 
+| Exclude applications from snapping to zones | Add the applications name, or part of the name, one per line (e.g., adding `Notepad` will match both `Notepad.exe` and `Notepad++.exe`, to match only `Notepad.exe` add the `.exe` extension) | 
 
 ![FancyZones Settings UI](FancyZonesSettings1.png)
 
