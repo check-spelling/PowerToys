@@ -12,7 +12,7 @@ using Microsoft.Win32;
 namespace Common
 {
     /// <summary>
-    /// Preview Handler base class implmenenting interfaces required by Preview Handler.
+    /// Preview Handler base class implementing interfaces required by Preview Handler.
     /// </summary>
     public abstract class PreviewHandlerBase : IPreviewHandler, IOleWindow, IObjectWithSite, IPreviewHandlerVisuals
     {
