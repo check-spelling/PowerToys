@@ -414,7 +414,7 @@ void D2DOverlayWindow::on_hide()
         DwmUnregisterThumbnail(thumbnail);
     }
     std::chrono::steady_clock::time_point shown_end_time = std::chrono::steady_clock::now();
-    // Trace the event only if the overaly window was visible.
+    // Trace the event only if the overlay window was visible.
     if (shown_start_time.time_since_epoch().count() > 0)
     {
         Trace::HideGuide(std::chrono::duration_cast<std::chrono::milliseconds>(shown_end_time - shown_start_time).count(), key_pressed);
