@@ -75,7 +75,7 @@ namespace Wox.Core.Plugin
                     Directory.Delete(tempFoler, true);
 
                     //exsiting plugins may be has loaded by application,
-                    //if we try to delelte those kind of plugins, we will get a  error that indicate the
+                    //if we try to delete those kind of plugins, we will get a  error that indicate the
                     //file is been used now.
                     //current solution is to restart wox. Ugly.
                     //if (MainWindow.Initialized)
