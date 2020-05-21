@@ -45,7 +45,7 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             dispatcher = Window.Current.Dispatcher;
             if (SettingsUtils.SettingsExists(PowerToyName))
             {
-                // Todo: Be more resillent while reading and saving settings.
+                // Todo: Be more resilient while reading and saving settings.
                 settings = SettingsUtils.GetSettings<KeyboardManagerSettings>(PowerToyName);
 
                 // Load profile.
