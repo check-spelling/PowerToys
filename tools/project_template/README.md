@@ -174,7 +174,7 @@ or
 ```cpp
 settings.set_description(description_resource_id);
 ```
-where `description_resource_id` is the UINT index of a resouce string in the project .rc file.
+where `description_resource_id` is the UINT index of a resource string in the project .rc file.
 
 #### icon_key
 The identifier of the PowerToy icon in the [`settings-web` project](/src/settings-web#updating-the-icons).
