@@ -284,7 +284,7 @@ namespace Wox.Helper
             {
               
                 // The application was clickonce deployed
-                // Clickonce deployed apps cannot recieve traditional commandline arguments
+                // Clickonce deployed apps cannot receive traditional commandline arguments
                 // As a workaround commandline arguments can be written to a shared location before 
                 // the app is launched and the app can obtain its commandline arguments from the 
                 // shared location               
