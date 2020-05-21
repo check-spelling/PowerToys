@@ -191,7 +191,7 @@ ShortcutGuideFilter get_shortcutguide_filtered_window()
     // WinKey + Up just won't maximize the window. Similary, without
     // WS_MINIMIZEBOX the window will not get minimized. A "Save As..." dialog
     // is a example of such window - it can be snapped to both sides and to
-    // all screen conrers, but will not get maximized nor minimized.
+    // all screen corners, but will not get maximized nor minimized.
     // For now, since ShortcutGuide can only disable entire "Windows Controls"
     // group, we require that the window supports all the options.
     result.snappable = ((style & WS_MAXIMIZEBOX) == WS_MAXIMIZEBOX) &&
