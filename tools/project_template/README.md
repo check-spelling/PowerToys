@@ -104,7 +104,7 @@ Here's an example from [the example PowerToy implementation](/src/modules/exampl
     );
 
     // Add a custom action property. When using this settings type, the "PowertoyModuleIface::call_custom_action()"
-    // method should be overriden as well.
+    // method should be overridden as well.
     settings.add_custom_action(
       L"test_custom_action", // action name.
       L"This is what a CustomAction property looks like", // label above the field.
@@ -297,7 +297,7 @@ A custom action property, invoked from the settings by a Button control. This ca
 It can be added to a `Settings` object by calling `add_custom_action`.
 ```cpp
 // Add a custom action property. When using this settings type, the "PowertoyModuleIface::call_custom_action()"
-// method should be overriden as well.
+// method should be overridden as well.
 settings.add_custom_action(
   L"test_custom_action", // action name.
   L"This is what a CustomAction property looks like", // label above the field: a string literal or a resource id
