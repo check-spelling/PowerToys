@@ -1080,7 +1080,7 @@ namespace FancyZonesUnitTests
                     }
                 }
 
-                TEST_METHOD (CustomZonesFromUnexistedFile)
+                TEST_METHOD (CustomZonesFromNonexistentFile)
                 {
                     const int spacing = 10;
                     const int zoneCount = 0;
